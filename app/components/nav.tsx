@@ -7,8 +7,8 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  'https://kyte.bio/kendru': {
-    name: 'contacts',
+  '/contact': {
+    name: 'contact',
   },
 }
 
