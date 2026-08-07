@@ -1,4 +1,4 @@
-import { getBlogPosts } from 'app/creatives/utils'
+/* import { getBlogPosts } from 'app/creatives/utils' */
 
 export const baseUrl = 'https://kendru.xyz'
 
