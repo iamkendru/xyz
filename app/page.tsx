@@ -1,5 +1,3 @@
-import { BlogPosts } from 'app/components/posts'
-
 export default function Page() {
   return (
     <section>
@@ -12,9 +10,6 @@ export default function Page() {
         I also have experience in hardware, IoT, networking and partly homelabbing, as well as I have spent my fair share of time modifying embedded hardwares.
         I am a self made photographer and also have experience in literature.`}
       </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
     </section>
   )
 }

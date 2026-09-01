@@ -1,4 +1,4 @@
-/* import { getBlogPosts } from 'app/creatives/utils' */
+import { getBlogPosts } from 'app/creatives/utils'
 
 export const baseUrl = 'https://kendru.xyz'
 
@@ -8,7 +8,7 @@ export default async function sitemap() {
     lastModified: post.metadata.publishedAt,
   }))
 
-  const routes = ['/projects', '/creatives', '/contact'].map((route) => ({
+  const routes = ['/projects', '/skills', '/creatives', '/photography', '/contact'].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date().toISOString(),
   }))
