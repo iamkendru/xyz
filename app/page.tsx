@@ -2,7 +2,7 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Kendra (kendru) Pokhrel
+        Kendra Pokhrel (kendru)
       </h1>
       <p className="mb-4">
         {`I'm Kendra Pokhrel, a technology enthusiast and an Electronics and Communication Engineering enthusiast.
