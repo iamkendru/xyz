@@ -6,7 +6,7 @@ export default function Page() {
       </h1>
       <p className="mb-4">
         {`I'm Kendra Pokhrel, a technology enthusiast and an Electronics and Communication Engineering enthusiast.
-        You can call me kendru. I've been learning web development components such as react, typescript and most part of frontend development.
+        I've been learning web development components such as react, typescript and most part of frontend development.
         I also have experience in hardware, IoT, networking and partly homelabbing, as well as I have spent my fair share of time modifying embedded hardwares.
         I am a self made photographer and also have experience in literature.`}
       </p>
