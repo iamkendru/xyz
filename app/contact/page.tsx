@@ -23,33 +23,33 @@ type ContactLink = {
 const links: ContactLink[] = [
   {
     label: 'Email',
-    value: ' ',
+    value: '',
     href: 'mailto:pokhrelkendra@gmail.com',
     icon: AtSign,
   },
 {
   label: 'GitHub',
-  value: ' ',
+  value: '',
   href: 'https://github.com/iamkendru',
   icon: Code2,
 },
 {
   label: 'Paper',
-  value: ' ',
+  value: '',
   href: 'https://paper.wf/kendru',
   icon: PenLine,
 },
 {
   label: 'WhatsApp',
-  value: ' ',
+  value: '',
   href: 'https://wa.me/9779807391549',
   icon: MessageCircleCheck,
 },
 {
   label: 'Telegram',
-  value: ' ',
+  value: '',
   href: 'https://t.me/iamkendru'
-  icon: Send
+  icon: send
 }
 ]
 
