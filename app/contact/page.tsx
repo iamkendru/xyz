@@ -34,7 +34,7 @@ const links: ContactLink[] = [
   icon: Code2,
 },
 {
-  label: 'Paper',
+  label: 'Blogs',
   value: '',
   href: 'https://paper.wf/kendru',
   icon: PenLine,
