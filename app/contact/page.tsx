@@ -6,10 +6,10 @@ export const metadata: Metadata = {
 }
 
 const links = [
-  { label: 'Email', value: 'Email', href: 'pokhrelkendra@gmail.com' },
-  { label: 'GitHub', value: 'GitHub', href: 'https://github.com/iamkendru' },
-  { label: 'Paper', value: 'Blogs', href: 'https://paper.wf/kendru' },
-  { label: 'WhatsApp', value: 'WhatsApp', href: 'wa.me/+9779807391549' },
+  { label: 'Email', value: 'pokhrelkendra@gmail.com', href: 'mailto:pokhrelkendra@gmail.com' },
+  { label: 'GitHub', value: 'github.com/iamkedru', href: 'https://github.com/iamkendru' },
+  { label: 'Paper', value: 'paper.wf/kendru', href: 'https://paper.wf/kendru' },
+  { label: 'WhatsApp', value: 'we.me/+9779807391549', href: 'wa.me/+9779807391549' },
 ] 
 
 export default function ContactPage() {
