@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import {
-  Mail,
+  AtSign,
   Code2,
   PenLine,
   MessageCircleCheck,
