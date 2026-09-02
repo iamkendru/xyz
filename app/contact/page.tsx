@@ -62,9 +62,7 @@ export default function ContactPage() {
     contact
     </p>
 
-    <h1 className="title text-4xl font-medium tracking-tight md:text-5xl">
-    Let&apos;s talk.
-    </h1>
+
 
     <p className="max-w-lg text-base leading-7 text-neutral-600 dark:text-neutral-300">
     Get in touch.
