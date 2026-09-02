@@ -11,42 +11,42 @@ const links = [
     label: 'Email',
     value: (
       <>
-      <Mail className="inline-block mr-2 h-4 w-4" />
-      pokhrelkendra@gmail.com
+        <Mail className="inline-block mr-2 h-4 w-4" />
+        pokhrelkendra@gmail.com
       </>
     ),
     href: 'mailto:pokhrelkendra@gmail.com',
   },
-{
-  label: 'GitHub',
-  value: (
-    <>
-    <Github className="inline-block mr-2 h-4 w-4" />
-    github.com/iamkendru
-    </>
-  ),
-  href: 'https://github.com/iamkendru',
-},
-{
-  label: 'Paper',
-  value: (
-    <>
-    <PenLine className="inline-block mr-2 h-4 w-4" />
-    paper.wf/kendru
-    </>
-  ),
-  href: 'https://paper.wf/kendru',
-},
-{
-  label: 'WhatsApp',
-  value: (
-    <>
-    <MessageCircleCheck className="inline-block mr-2 h-4 w-4" />
-    wa.me/9779807391549
-    </>
-  ),
-  href: 'https://wa.me/9779807391549',
-},
+  {
+    label: 'GitHub',
+    value: (
+      <>
+        <Github className="inline-block mr-2 h-4 w-4" />
+        github.com/iamkendru
+      </>
+    ),
+    href: 'https://github.com/iamkendru',
+  },
+  {
+    label: 'Paper',
+    value: (
+      <>
+        <PenLine className="inline-block mr-2 h-4 w-4" />
+        paper.wf/kendru
+      </>
+    ),
+    href: 'https://paper.wf/kendru',
+  },
+  {
+    label: 'WhatsApp',
+    value: (
+      <>
+        <MessageCircle className="inline-block mr-2 h-4 w-4" />
+        wa.me/9779807391549
+      </>
+    ),
+    href: 'https://wa.me/9779807391549',
+  },
 ]
 
 export default function ContactPage() {
