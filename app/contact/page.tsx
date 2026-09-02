@@ -4,7 +4,7 @@ import {
   Code2,
   PenLine,
   MessageCircleCheck,
-  Send,
+  send,
   type LucideIcon,
 } from 'lucide-react'
 
