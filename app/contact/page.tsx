@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Mail, Github, PenLine, MessageCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -8,22 +9,42 @@ export const metadata: Metadata = {
 const links = [
   {
     label: 'Email',
-    value: 'pokhrelkendra@gmail.com',
+    value: (
+      <>
+      <Mail className="inline-block mr-2 h-4 w-4" />
+      pokhrelkendra@gmail.com
+      </>
+    ),
     href: 'mailto:pokhrelkendra@gmail.com',
   },
 {
   label: 'GitHub',
-  value: 'github.com/iamkendru',
+  value: (
+    <>
+    <Github className="inline-block mr-2 h-4 w-4" />
+    github.com/iamkendru
+    </>
+  ),
   href: 'https://github.com/iamkendru',
 },
 {
   label: 'Paper',
-  value: 'paper.wf/kendru',
+  value: (
+    <>
+    <PenLine className="inline-block mr-2 h-4 w-4" />
+    paper.wf/kendru
+    </>
+  ),
   href: 'https://paper.wf/kendru',
 },
 {
   label: 'WhatsApp',
-  value: 'wa.me/9779807391549',
+  value: (
+    <>
+    <MessageCircleCheck className="inline-block mr-2 h-4 w-4" />
+    wa.me/9779807391549
+    </>
+  ),
   href: 'https://wa.me/9779807391549',
 },
 ]
