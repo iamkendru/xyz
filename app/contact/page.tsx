@@ -3,7 +3,8 @@ import {
   Mail,
   Code2,
   PenLine,
-  MessageCircle,
+  MessageCircleCheck,
+  Send,
   type LucideIcon,
 } from 'lucide-react'
 
