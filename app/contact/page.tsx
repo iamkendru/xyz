@@ -50,7 +50,7 @@ const links: ContactLink[] = [
   value: '',
   href: 'https://t.me/iamkendru'
   icon: send
-}
+},
 ]
 
 export default function ContactPage() {
