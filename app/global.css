@@ -32,15 +32,17 @@
 }
 
 html {
-  min-width: 360px;
-  overflow: hidden;
+  min-width: 320px;
+  overflow-x: hidden;
 }
+
 @media (max-width: 480px) {
   #nav a,
   #nav button {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+}
 
 .prose .anchor {
   @apply absolute invisible no-underline;
@@ -157,3 +159,4 @@ table {
 .title {
   text-wrap: balance;
 }
+
