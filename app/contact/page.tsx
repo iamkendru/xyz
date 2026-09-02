@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import {
-  Github,
   Mail,
-  MessageCircle,
+  Code2,
   PenLine,
+  MessageCircle,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -30,7 +30,7 @@ const links: ContactLink[] = [
   label: 'GitHub',
   value: 'github.com/iamkendru',
   href: 'https://github.com/iamkendru',
-  icon: Github,
+  icon: Code2,
 },
 {
   label: 'Paper',
@@ -50,7 +50,6 @@ export default function ContactPage() {
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-12 px-6 py-16 md:px-8 md:py-24">
 
-    {/* Header */}
     <header className="flex flex-col gap-4">
     <p className="font-mono text-sm text-neutral-500 dark:text-neutral-400">
     contact
@@ -65,7 +64,6 @@ export default function ContactPage() {
     </p>
     </header>
 
-    {/* Contact links */}
     <section
     aria-label="Contact details"
     className="flex flex-col border-t border-neutral-200 dark:border-neutral-800"
@@ -79,20 +77,7 @@ export default function ContactPage() {
         href={href}
         target={external ? '_blank' : undefined}
         rel={external ? 'noreferrer' : undefined}
-        className="
-        group
-        flex
-        items-center
-        justify-between
-        gap-6
-        border-b
-        border-neutral-200
-        py-5
-        transition-colors
-        hover:text-neutral-500
-        dark:border-neutral-800
-        dark:hover:text-neutral-300
-        "
+        className="group flex items-center justify-between gap-6 border-b border-neutral-200 py-5 transition-colors hover:text-neutral-500 dark:border-neutral-800 dark:hover:text-neutral-300"
         >
         <span className="font-mono text-sm text-neutral-500 dark:text-neutral-400">
         {label}
