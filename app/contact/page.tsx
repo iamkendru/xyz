@@ -4,7 +4,7 @@ import {
   Code2,
   PenLine,
   MessageCircleCheck,
-  send,
+  Send,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -48,8 +48,8 @@ const links: ContactLink[] = [
 {
   label: 'Telegram',
   value: '',
-  href: 'https://t.me/iamkendru'
-  icon: send
+  href: 'https://t.me/iamkendru',
+  icon: Send,
 },
 ]
 
